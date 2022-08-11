@@ -250,6 +250,7 @@ nav ul li .pop {
     transition: all 0.6s ease;
     width: 0px; /*너비를 빼버리면 문자 너비로 나옴*/
     z-index: 99999999;
+    overflow-y: hidden;
 }
 .menulist li {
     font-size: 20px;
@@ -920,6 +921,7 @@ footer #top_wrap {
         margin-top: 7vw;
     }
     /* ----------------------------- */
+
     /* -----------news------------ */
     #news {
         margin-left: 13vw;
@@ -991,6 +993,7 @@ footer #top_wrap {
     /* ----------------------------- */
     /* -------장르로 음악 찾기-------- */
     #search_music {
+        width: 80vw;
         margin-left: 13vw;
         margin-top: 7vw;
     }
@@ -1005,7 +1008,7 @@ footer #top_wrap {
     #mv {
         width: 80vw;
         margin-left: 13vw;
-        margin-top: 4vw;
+        margin-top: 15vw;
     }
     #mv .swiper-slide{
         display: block;
