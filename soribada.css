@@ -1446,7 +1446,7 @@ footer #top_wrap {
         transform: scale(1);
     }
     body {
-        width: 104%;
+        width: 100%;
         overflow-x: hidden;
     }
     header {
@@ -1460,7 +1460,7 @@ footer #top_wrap {
     }
     main .mobile_main {
         display: block;
-        width: 100%;
+        width: 104%;
     }
 /* =========playlist=============== */
     #playlist {
